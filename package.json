@@ -1,0 +1,17 @@
+{
+  "name": "triage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "repro": "rm -rf ./node_modules && npm i --no-optional && npm start",
+    "start": "FIREBASE_CONFIG=./cert.json node ./firestore.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^9.4.1"
+  }
+}
